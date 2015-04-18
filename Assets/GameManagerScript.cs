@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GameManagerScript : MonoBehaviour {
 
-
+	public bool paused = false;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +14,16 @@ public class GameManagerScript : MonoBehaviour {
 	void Update () {
 		if (Input.GetKey("space"))
 			RestartGame();
+		else if (Input.GetKeyDown("escape")) {
+			if (!paused) {
+				Time.timeScale = 0;
+				paused = true;
+			}
+			else {
+				Time.timeScale = 1;
+				paused = false;
+			}
+		}
 	}
 
 	public void RestartGame() {
