@@ -625,7 +625,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 405870}
   - 111: {fileID: 11189912}
-  - 54: {fileID: 5439986}
+  - 54: {fileID: 5446086}
+  - 114: {fileID: 11472164}
+  - 114: {fileID: 11416912}
   m_Layer: 0
   m_Name: Rabbit_LowPoly_RigUnity_Final
   m_TagString: Untagged
@@ -1228,7 +1230,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.7999992, y: 29.7000008, z: 26}
+  m_LocalPosition: {x: 82, y: 21.3999996, z: 26}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 470884}
@@ -1976,8 +1978,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.12, z: 0}
-  m_LocalScale: {x: .478934705, y: 1.26060522, z: .535099447}
+  m_LocalPosition: {x: 0, y: 1.00999999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405870}
   m_RootOrder: 5
@@ -2159,7 +2161,7 @@ Transform:
   - {fileID: 483128}
   m_Father: {fileID: 460826}
   m_RootOrder: 0
---- !u!54 &5439986
+--- !u!54 &5446086
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2189,6 +2191,33 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!114 &11416912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301a8cfe6e5f44d478f9a177b5d26188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ExplosionPref: {fileID: 107460, guid: 67daec5bba1ab08469abd1c571872e6c, type: 2}
+  DeathTime: 0
+--- !u!114 &11472164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6233452a8e4f94d42a3ce54af5ac7c5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Team: 0
+  _MAXHEALTH: 1
+  health: 1
 --- !u!136 &13621916
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2199,7 +2228,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 2
-  m_Height: 5
+  m_Height: 6
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &13720372

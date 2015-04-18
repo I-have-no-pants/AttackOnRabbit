@@ -6,6 +6,8 @@ public class BulletScript : MonoBehaviour {
 	public GameObject Explosion;
 
 	public Collider turretCollider;
+	public int lifeTime = 5;
+	private float timer = 0;
 	
 	// Use this for initialization
 	void Start () {
@@ -14,7 +16,9 @@ public class BulletScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-	
+		timer += Time.fixedDeltaTime;
+		if (timer >= lifeTime)
+			Destroy(gameObject);
 	}
 
 	void OnCollisionEnter(Collision collision) {

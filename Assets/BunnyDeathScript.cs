@@ -15,7 +15,8 @@ public class BunnyDeathScript : MonoBehaviour {
 
 	public void OnDeath() {
 		Destroy (gameObject, DeathTime);
-		Instantiate (ExplosionPref, transform.position, transform.rotation); 
+		Instantiate (ExplosionPref, transform.position, transform.rotation);
+		FindObjectOfType<RabbitSpawner>().RabbitsCount--;
 	}
 	
 	// Update is called once per frame
