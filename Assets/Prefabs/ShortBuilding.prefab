@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 469146}
   m_Layer: 0
   m_Name: ShortBuilding
-  m_TagString: Untagged
+  m_TagString: PartyZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ GameObject:
   - 23: {fileID: 2381548}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: PartyZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 65.8000031, z: 0}
+  m_LocalPosition: {x: 545, y: 63, z: 118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 487108}
