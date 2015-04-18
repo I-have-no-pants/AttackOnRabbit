@@ -1,0 +1,4620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 1
+  m_FogColor: {r: .433823526, g: 0, b: .350050777, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .000300000014
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .211999997, g: .226999998, b: .259000003, a: 1}
+  m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
+  m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
+  m_AmbientIntensity: 0
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 2100000, guid: 94be0aa0b05b64a46b05ce2fe21ee730, type: 2}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 0
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 5
+    m_AlbedoBoost: 10
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666672
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &67029438
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1242
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 4957
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &123017285
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1492
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4943
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &141477812
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -374.859985
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1386.80005
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &172247412
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 704
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &196089184
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 501
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1830
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754387
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754562
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &220653723
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -696
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -686
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &222146558
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2394
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2519
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.21431
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &247192305
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1023.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1002.70001
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &292051759
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 983
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 228
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &339040586
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 363.859985
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1399.90002
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &372259581
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1018
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3390
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.21431
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &426349592
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1423.09998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 329.01001
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0756683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &525412911
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1383.09998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -339.779999
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0756683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &549718862
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -943
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -231
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &585662349
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1338
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1353
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754387
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754562
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &669552725
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -544
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1839
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754379
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754448
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &671189785
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1004.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1022.59998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &704705826
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -695
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &738822545
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1958
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1968
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &759258972
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 905
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3373
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214554
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &770502928
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -405.459991
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1385.90002
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &779875112
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 963
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &785869553
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 993.309998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1037.09998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &788104284
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3620
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3616
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246338
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246902
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &805440586
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3541
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3628
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246338
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246902
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &824981563
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -251
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 954
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &876909337
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4899
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1172
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246857
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246704
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &878338215
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 859
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3404
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.21431
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &937819049
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1840
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -453
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754555
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754524
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &988752059
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2690
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -663
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015755
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015602
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &990772409
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1933
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1968
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &993483442
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3356
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 807
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214432
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214508
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &994226732
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1363
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1331
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754379
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754448
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1004163201
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 688
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 714
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1005169846
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3479
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3668
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1008213796
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1151
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246857
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246704
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1041747622
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3400
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -881
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214432
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214508
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1045117437
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -802
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015594
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1067976304
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3442
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 792
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214432
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214508
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1131574675
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4944
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1288
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246857
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246704
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1133961270
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1900
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1996
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015594
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1152014327
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -930
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 232
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1185092569
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1010.79999
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1015.90002
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1202361295
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2524
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2456
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.21431
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1204722300
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2696
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -696
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015755
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015602
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1214859846
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0900000036
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: .0130000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.22000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_RootOrder
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1001 &1272135668
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1309
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4918
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246338
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246902
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1278139611
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 971
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -243
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1320104268
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -272
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -949
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1420281532
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -743
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2672
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1475188687
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1995
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1943
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015594
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1491133895
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -503
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1836
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754387
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754562
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1520950059
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2653
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 640
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015755
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015602
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1547518003
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1815
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 442
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754555
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754524
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1558331397
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3687
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3581
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.24646
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1569486374
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2436
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2488
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214554
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1570430347
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1349
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754387
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754562
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1575253921
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2478
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2484
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214554
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1587728361
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2730
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 629
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015755
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015602
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1598581378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1598581382}
+  - 33: {fileID: 1598581381}
+  - 64: {fileID: 1598581380}
+  - 23: {fileID: 1598581379}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1598581379
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598581378}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1598581380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598581378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1598581381
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598581378}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1598581382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598581378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -.5, z: 0}
+  m_LocalScale: {x: 2000, y: 2000, z: 2000}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
+--- !u!1001 &1602879520
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1405.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -357.26001
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0756683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1622686627
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -943
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3372
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214218
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214554
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1624579054
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1364.19995
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 334.839996
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0756683
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1644355433
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 721
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2669
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1701711322
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1310
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1372
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754379
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754448
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1762240377
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1383
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 4910
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246338
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246902
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1863518544
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 476
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1853
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754379
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754448
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1865300043
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1857
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -476
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754555
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754524
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1867299322
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1880
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 332
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 120.754555
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 120.754524
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 301.886017
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1891707527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1891707532}
+  - 20: {fileID: 1891707531}
+  - 124: {fileID: 1891707530}
+  - 92: {fileID: 1891707529}
+  - 81: {fileID: 1891707528}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1891707528
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891707527}
+  m_Enabled: 1
+--- !u!92 &1891707529
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891707527}
+  m_Enabled: 1
+--- !u!124 &1891707530
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891707527}
+  m_Enabled: 1
+--- !u!20 &1891707531
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891707527}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 10000
+  field of view: 55
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &1891707532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891707527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 371, y: 330, z: -4315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 74
+--- !u!1001 &1940295002
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 269
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -944
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1942946966
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4966
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 609
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1225
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 219.246857
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 219.246704
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 548.115723
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2025624514
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3402
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 434
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -839
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 158.214432
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 158.214508
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 395.535431
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2031422463
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 684
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 333
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2697
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 116.015472
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 116.015594
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 290.038757
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2062264609
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 382.809998
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 279.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1378.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.612372518
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .353553414
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .353553474
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .612372398
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_Name
+      value: Tall Tower 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 96.0755768
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 96.0756149
+      objectReference: {fileID: 0}
+    - target: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 240.18895
+      objectReference: {fileID: 0}
+    - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
