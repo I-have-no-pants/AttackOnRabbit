@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5afad391340d45d48b0d3c2ee285a037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Explosion: {fileID: 107460, guid: 67daec5bba1ab08469abd1c571872e6c, type: 2}
+  Explosion: {fileID: 132266, guid: 8a5dfef1a4446bd48a938782bd6bcbab, type: 2}
   turretCollider: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:

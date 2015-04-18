@@ -11,6 +11,7 @@ public class Explosion : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+
 		Destroy (gameObject, Lifetime);
 		foreach (var collision in Physics.SphereCastAll(transform.position,Size,Vector3.up)) {
 			var h = collision.collider.GetComponent<HealthComponent>();
