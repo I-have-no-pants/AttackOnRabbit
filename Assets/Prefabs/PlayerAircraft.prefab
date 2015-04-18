@@ -6257,7 +6257,7 @@ MonoBehaviour:
   bullet: {fileID: 11427770, guid: 61a4d0f9df8ebce4b92adfcf9dc3e2c6, type: 2}
   muzzle: {fileID: 418182}
   Velocity: 500
-  airplane: {fileID: 0}
+  airplane: {fileID: 5432798}
 --- !u!114 &11471368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6274,7 +6274,7 @@ MonoBehaviour:
   m_ZeroLiftSpeed: 300
   m_RollEffect: .75
   m_PitchEffect: .75
-  m_YawEffect: .200000003
+  m_YawEffect: 1
   m_BankedTurnEffect: .5
   m_AerodynamicEffect: .0199999996
   m_AutoTurnPitch: .5
@@ -6410,7 +6410,7 @@ MonoBehaviour:
   bullet: {fileID: 11427770, guid: 61a4d0f9df8ebce4b92adfcf9dc3e2c6, type: 2}
   muzzle: {fileID: 429112}
   Velocity: 500
-  airplane: {fileID: 0}
+  airplane: {fileID: 5432798}
 --- !u!114 &11496662
 MonoBehaviour:
   m_ObjectHideFlags: 1

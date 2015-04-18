@@ -1512,20 +1512,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 191694, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
       propertyPath: m_Name
       value: AircraftJet
       objectReference: {fileID: 0}
-    - target: {fileID: 11490152, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
-      propertyPath: airplane
-      value: 
-      objectReference: {fileID: 1561365577}
-    - target: {fileID: 11467486, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
-      propertyPath: airplane
-      value: 
-      objectReference: {fileID: 1561365577}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
   m_IsPrefabParent: 0
@@ -1715,11 +1707,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1390175950}
   m_Mesh: {fileID: 4300010, guid: f2cf642a0812cfd41bdf1b6599c382a5, type: 3}
---- !u!54 &1561365577 stripped
-Rigidbody:
-  m_PrefabParentObject: {fileID: 5432798, guid: 45f3f07c80d50dd49ae701233970cc76,
-    type: 2}
-  m_PrefabInternal: {fileID: 1252376583}
 --- !u!1001 &1590302404
 Prefab:
   m_ObjectHideFlags: 0
