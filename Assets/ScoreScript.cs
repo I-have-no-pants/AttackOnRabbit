@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScoreScript : MonoBehaviour {
 
-	public StaticGuiAnimations sga;
+	private StaticGuiAnimations sga;
 	private int score = 0;
 	public int killStreak = 0;
 	public float killStreakTime = 10;
@@ -47,6 +47,7 @@ public class ScoreScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		killStreakTimer = killStreakTime;
+		sga = FindObjectOfType<StaticGuiAnimations>();
 	}
 	
 	// Update is called once per frame

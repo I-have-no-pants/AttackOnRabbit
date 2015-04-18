@@ -7,11 +7,11 @@ public class StaticGuiAnimations : MonoBehaviour {
 	public Text Score;
 	public Text Killstreak;
 	public Text Message;
-	public ScoreScript sc;
+	private ScoreScript sc;
 
 	// Use this for initialization
 	void Start () {
-	
+		sc = FindObjectOfType<ScoreScript>();
 	}
 	
 	// Update is called once per frame
