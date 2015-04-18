@@ -8,13 +8,13 @@ public class PlayerGun : MonoBehaviour {
 	public float timer;
 	public float MaxRotation;
 	public TurretScript turret;
-
+	private Animator animator;
 
 	public Vector3 limitAngles;
 
 	// Use this for initialization
 	void Start () {
-	
+		animator = GetComponent<Animator> ();
 	}
 
 	float ClampAngle(float angle, float min, float max) {
@@ -47,14 +47,12 @@ public class PlayerGun : MonoBehaviour {
 		// Rotate
 		if (target != null) {
 			transform.rotation = Quaternion.RotateTowards( transform.rotation, Quaternion.LookRotation( target.transform.position- transform.position, new Vector3(0,1,0)), MaxRotation * Time.fixedDeltaTime);
-
-
-
 		}
 
 		if (Input.GetButton("Fire1") && timer <= 0) {
 			turret.Fire();
 			timer = reload;
+			animator.SetTrigger("Shoot");
 		}
 		
 		
