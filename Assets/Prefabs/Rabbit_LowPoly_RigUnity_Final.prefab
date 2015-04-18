@@ -627,6 +627,7 @@ GameObject:
   - 111: {fileID: 11189912}
   - 114: {fileID: 11472164}
   - 114: {fileID: 11416912}
+  - 54: {fileID: 5423994}
   m_Layer: 0
   m_Name: Rabbit_LowPoly_RigUnity_Final
   m_TagString: Untagged
@@ -2160,6 +2161,21 @@ Transform:
   - {fileID: 483128}
   m_Father: {fileID: 460826}
   m_RootOrder: 0
+--- !u!54 &5423994
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172426}
+  serializedVersion: 2
+  m_Mass: .00100000005
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!111 &11189912
 Animation:
   m_ObjectHideFlags: 1
@@ -2187,7 +2203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExplosionPref: {fileID: 184934, guid: 2559678a6daa9e340babaf6e93e4bc87, type: 2}
-  DeathTime: .100000001
+  DeathTime: 0
 --- !u!114 &11472164
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -20,6 +20,7 @@ public class RabbitSpawner : MonoBehaviour {
 		}
 	}
 	private bool spawnMoreRabbits = true;
+	public GameObject airplane;
 
 	void SpawnRabbit() {
 		int x = Random.Range(minSpwanX,maxSpawnX);
@@ -31,8 +32,10 @@ public class RabbitSpawner : MonoBehaviour {
 			Debug.Log(hit.collider.name);
 			if (hit.collider.tag == "PartyZone") {
 				Vector3 location = new Vector3(x,hit.point.y,z);
-				Instantiate(rabbit, location, Quaternion.Euler(0,Random.Range(0,360),0));
-				RabbitsCount++;
+				if ((airplane.transform.position-location).magnitude > 50) {
+					Instantiate(rabbit, location, Quaternion.Euler(0,Random.Range(0,360),0));
+					RabbitsCount++;
+				}
 			} //else
 				//SpawnRabbit();
 		}
