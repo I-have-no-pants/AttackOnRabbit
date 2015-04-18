@@ -22,7 +22,7 @@ public class Explosion : MonoBehaviour {
 				h.Health -= Damage;
 
 			var r = collision.rigidbody;
-			if (r) {
+			if (r && Force != 0) {
 				if (!r.isKinematic)
 					r.AddForceAtPosition(Force * collision.point - transform.position,collision.point);
 

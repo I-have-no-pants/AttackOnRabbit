@@ -146,6 +146,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -205,6 +209,10 @@ Prefab:
       value: 548.115723
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -270,6 +278,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -317,6 +329,10 @@ Prefab:
       value: Tall Tower 6
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -382,6 +398,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -425,6 +445,10 @@ Prefab:
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -490,6 +514,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -552,9 +580,97 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &270527876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 270527880}
+  - 33: {fileID: 270527879}
+  - 23: {fileID: 270527878}
+  - 95: {fileID: 270527877}
+  m_Layer: 0
+  m_Name: Tall Tower 76
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &270527877
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270527876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &270527878
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270527876}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &270527879
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270527876}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+--- !u!4 &270527880
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270527876}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3618, y: 98.8000031, z: 1}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 14.3217363}
+  m_Children:
+  - {fileID: 1834183179}
+  m_Father: {fileID: 0}
+  m_RootOrder: 74
 --- !u!1001 &292051759
 Prefab:
   m_ObjectHideFlags: 0
@@ -599,6 +715,10 @@ Prefab:
       value: Tall Tower 2
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -664,6 +784,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -723,6 +847,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -788,9 +916,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &475980451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 475980452}
+  - 33: {fileID: 475980455}
+  - 65: {fileID: 475980454}
+  - 23: {fileID: 475980453}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475980452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475980451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 1099166133}
+  m_RootOrder: 0
+--- !u!23 &475980453
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475980451}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &475980454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475980451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &475980455
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 475980451}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &525412911
 Prefab:
   m_ObjectHideFlags: 0
@@ -850,6 +1058,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -897,6 +1109,10 @@ Prefab:
       value: Tall Tower 4
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -962,6 +1178,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1021,6 +1241,10 @@ Prefab:
       value: 301.886017
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1086,6 +1310,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1136,9 +1364,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &725589548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 725589552}
+  - 33: {fileID: 725589551}
+  - 65: {fileID: 725589550}
+  - 23: {fileID: 725589549}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &725589549
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725589548}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &725589550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725589548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &725589551
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725589548}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &725589552
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725589548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 1270098245}
+  m_RootOrder: 0
 --- !u!1001 &738822545
 Prefab:
   m_ObjectHideFlags: 0
@@ -1198,9 +1506,97 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &756166904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 756166905}
+  - 33: {fileID: 756166908}
+  - 23: {fileID: 756166907}
+  - 95: {fileID: 756166906}
+  m_Layer: 0
+  m_Name: Tall Tower 72
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &756166905
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756166904}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3618, y: -36, z: -112}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 66.0864944}
+  m_Children:
+  - {fileID: 1191632729}
+  m_Father: {fileID: 0}
+  m_RootOrder: 78
+--- !u!95 &756166906
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756166904}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &756166907
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756166904}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &756166908
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756166904}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
 --- !u!1001 &759258972
 Prefab:
   m_ObjectHideFlags: 0
@@ -1257,6 +1653,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1322,6 +1722,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1369,6 +1773,10 @@ Prefab:
       value: Tall Tower 7
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1434,6 +1842,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1493,6 +1905,10 @@ Prefab:
       value: 548.115723
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1558,9 +1974,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &810360007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 810360008}
+  - 33: {fileID: 810360011}
+  - 65: {fileID: 810360010}
+  - 23: {fileID: 810360009}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &810360008
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 810360007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 1942110870}
+  m_RootOrder: 0
+--- !u!23 &810360009
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 810360007}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &810360010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 810360007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &810360011
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 810360007}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &824981563
 Prefab:
   m_ObjectHideFlags: 0
@@ -1605,6 +2101,10 @@ Prefab:
       value: Tall Tower 9
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1670,6 +2170,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1729,6 +2233,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1794,6 +2302,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1853,6 +2365,10 @@ Prefab:
       value: 290.038757
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -1918,6 +2434,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -1977,6 +2497,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2042,6 +2566,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2089,6 +2617,10 @@ Prefab:
       value: Tall Tower 10
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2154,6 +2686,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2213,6 +2749,10 @@ Prefab:
       value: 548.115723
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2278,6 +2818,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2340,9 +2884,86 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1065300740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1065300744}
+  - 114: {fileID: 1065300743}
+  - 114: {fileID: 1065300742}
+  - 114: {fileID: 1065300741}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1065300741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065300740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowActivationOnStandalone: 0
+--- !u!114 &1065300742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065300740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Yaw
+  m_VerticalAxis: Pitch
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_AllowActivationOnMobileDevice: 0
+--- !u!114 &1065300743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065300740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1065300744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065300740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 81
 --- !u!1001 &1067976304
 Prefab:
   m_ObjectHideFlags: 0
@@ -2402,9 +3023,101 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1099166129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1099166133}
+  - 33: {fileID: 1099166132}
+  - 23: {fileID: 1099166131}
+  - 95: {fileID: 1099166130}
+  m_Layer: 0
+  m_Name: Tall Tower 73
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1099166130
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099166129}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1099166131
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099166129}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1099166132
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099166129}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+--- !u!4 &1099166133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099166129}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3618, y: -36, z: 110}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 66.0864944}
+  m_Children:
+  - {fileID: 475980452}
+  m_Father: {fileID: 0}
+  m_RootOrder: 77
+--- !u!1 &1121997022 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 191694, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+  m_PrefabInternal: {fileID: 2137851046}
 --- !u!1001 &1131574675
 Prefab:
   m_ObjectHideFlags: 0
@@ -2461,6 +3174,10 @@ Prefab:
       value: 548.115723
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2526,6 +3243,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2573,6 +3294,10 @@ Prefab:
       value: Tall Tower 3
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2638,9 +3363,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1191632725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1191632729}
+  - 33: {fileID: 1191632728}
+  - 65: {fileID: 1191632727}
+  - 23: {fileID: 1191632726}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1191632726
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191632725}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1191632727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191632725}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1191632728
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191632725}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1191632729
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191632725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 756166905}
+  m_RootOrder: 0
 --- !u!1001 &1202361295
 Prefab:
   m_ObjectHideFlags: 0
@@ -2697,6 +3502,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2762,6 +3571,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2778,7 +3591,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .0130000003
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2802,7 +3615,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalScale.x
@@ -2823,6 +3636,148 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
   m_IsPrefabParent: 0
+--- !u!1001 &1227481012
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2916
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.670140505
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .74223423
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 483128, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.339387417
+      objectReference: {fileID: 0}
+    - target: {fileID: 483128, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.30171445
+      objectReference: {fileID: 0}
+    - target: {fileID: 483128, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .579725981
+      objectReference: {fileID: 0}
+    - target: {fileID: 483128, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .676537156
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1270098244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1270098245}
+  - 33: {fileID: 1270098248}
+  - 23: {fileID: 1270098247}
+  - 95: {fileID: 1270098246}
+  m_Layer: 0
+  m_Name: Tall Tower 77
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270098245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270098244}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3242, y: 99, z: 1}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 14.3217363}
+  m_Children:
+  - {fileID: 725589552}
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
+--- !u!95 &1270098246
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270098244}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1270098247
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270098244}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1270098248
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270098244}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
 --- !u!1001 &1272135668
 Prefab:
   m_ObjectHideFlags: 0
@@ -2882,6 +3837,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -2929,6 +3888,10 @@ Prefab:
       value: Tall Tower 5
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -2982,9 +3945,97 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1366954664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1366954668}
+  - 33: {fileID: 1366954667}
+  - 23: {fileID: 1366954666}
+  - 95: {fileID: 1366954665}
+  m_Layer: 0
+  m_Name: Tall Tower 75
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1366954665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366954664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1366954666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366954664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1366954667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366954664}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+--- !u!4 &1366954668
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366954664}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3204, y: -36, z: 115}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 66.0864944}
+  m_Children:
+  - {fileID: 1542306712}
+  m_Father: {fileID: 0}
+  m_RootOrder: 75
 --- !u!1001 &1420281532
 Prefab:
   m_ObjectHideFlags: 0
@@ -3041,6 +4092,10 @@ Prefab:
       value: 290.038757
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3106,6 +4161,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -3168,9 +4227,54 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1491750842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1491750843}
+  - 114: {fileID: 1491750844}
+  m_Layer: 0
+  m_Name: ScoreScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1491750843
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1491750842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 727.378723, y: -10.741971, z: 34.3884735}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1579832986}
+  m_RootOrder: 1
+--- !u!114 &1491750844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1491750842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38bf1fa4c2512d40929d91de075c4a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killStreak: 0
+  killStreakTime: 10
 --- !u!1001 &1520950059
 Prefab:
   m_ObjectHideFlags: 0
@@ -3230,9 +4334,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1542306711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1542306712}
+  - 33: {fileID: 1542306715}
+  - 65: {fileID: 1542306714}
+  - 23: {fileID: 1542306713}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542306712
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542306711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 1366954668}
+  m_RootOrder: 0
+--- !u!23 &1542306713
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542306711}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1542306714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542306711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1542306715
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1542306711}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1547518003
 Prefab:
   m_ObjectHideFlags: 0
@@ -3289,6 +4473,10 @@ Prefab:
       value: 301.886017
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3354,6 +4542,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -3413,6 +4605,10 @@ Prefab:
       value: 395.535431
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3478,6 +4674,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -3540,9 +4740,54 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1579832984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1579832986}
+  - 114: {fileID: 1579832985}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1579832985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1579832984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c93334f5b80ca4f8e48748475bc127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1579832986
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1579832984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2128707885}
+  - {fileID: 1491750843}
+  m_Father: {fileID: 0}
+  m_RootOrder: 82
 --- !u!1001 &1587728361
 Prefab:
   m_ObjectHideFlags: 0
@@ -3599,6 +4844,10 @@ Prefab:
       value: 290.038757
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3677,7 +4926,7 @@ Transform:
   m_LocalScale: {x: 2000, y: 2000, z: 2000}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_RootOrder: 83
 --- !u!1001 &1602879520
 Prefab:
   m_ObjectHideFlags: 0
@@ -3734,6 +4983,10 @@ Prefab:
       value: 240.18895
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3799,6 +5052,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -3858,6 +5115,10 @@ Prefab:
       value: 240.18895
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -3923,6 +5184,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -3982,6 +5247,10 @@ Prefab:
       value: 301.886017
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -4047,9 +5316,89 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1834183178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1834183179}
+  - 33: {fileID: 1834183182}
+  - 65: {fileID: 1834183181}
+  - 23: {fileID: 1834183180}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834183179
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467154, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1834183178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.0999999, y: 2.0999999, z: 2.0999999}
+  m_Children: []
+  m_Father: {fileID: 270527880}
+  m_RootOrder: 0
+--- !u!23 &1834183180
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2376664, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1834183178}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1834183181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6574176, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1834183178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1834183182
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3374210, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1834183178}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1863518544
 Prefab:
   m_ObjectHideFlags: 0
@@ -4106,6 +5455,10 @@ Prefab:
       value: 301.886017
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -4171,6 +5524,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -4233,6 +5590,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -4254,7 +5615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1891707528
 AudioListener:
   m_ObjectHideFlags: 0
@@ -4319,7 +5680,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 84
 --- !u!1001 &1940295002
 Prefab:
   m_ObjectHideFlags: 0
@@ -4367,9 +5728,97 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1942110866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1942110870}
+  - 33: {fileID: 1942110869}
+  - 23: {fileID: 1942110868}
+  - 95: {fileID: 1942110867}
+  m_Layer: 0
+  m_Name: Tall Tower 74
+  m_TagString: PartyZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1942110867
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9562918, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942110866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1942110868
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357184, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942110866}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5fa523e9a08b1ea41936a2316017e48f, type: 2}
+  - {fileID: 2100000, guid: c15c4be1f1274bb479bb9a98aaca0db3, type: 2}
+  - {fileID: 2100000, guid: bad6f978ce5690d4face95cc6c5a10ab, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1942110869
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3302024, guid: 44708bb14ccbb3b41be77d8838cebad5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942110866}
+  m_Mesh: {fileID: 4300000, guid: 47a7813000986644baf26495821e68ec, type: 3}
+--- !u!4 &1942110870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 414606, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1942110866}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+  m_LocalPosition: {x: 3209, y: -36, z: -112}
+  m_LocalScale: {x: 158.214432, y: 55.6385269, z: 66.0864944}
+  m_Children:
+  - {fileID: 810360008}
+  m_Father: {fileID: 0}
+  m_RootOrder: 76
 --- !u!1001 &1942946966
 Prefab:
   m_ObjectHideFlags: 0
@@ -4426,6 +5875,10 @@ Prefab:
       value: 548.115723
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -4491,6 +5944,10 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
   m_IsPrefabParent: 0
@@ -4550,6 +6007,10 @@ Prefab:
       value: 290.038757
       objectReference: {fileID: 0}
     - target: {fileID: 189724, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
@@ -4615,6 +6076,103 @@ Prefab:
       propertyPath: m_TagString
       value: PartyZone
       objectReference: {fileID: 0}
+    - target: {fileID: 169214, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+      propertyPath: m_TagString
+      value: PartyZone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44708bb14ccbb3b41be77d8838cebad5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &2128707884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2128707885}
+  - 114: {fileID: 2128707886}
+  m_Layer: 0
+  m_Name: RabbitSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2128707885
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128707884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1579832986}
+  m_RootOrder: 0
+--- !u!114 &2128707886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128707884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b03828997691da4296f119303796de5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rabbit: {fileID: 172426, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+  rabbitCollider: {fileID: 13621916, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+  maxSpawnX: 10000
+  minSpwanX: -10000
+  maxSpawnZ: 10000
+  minSpwanZ: -10000
+  spawnCount: 40
+  airplane: {fileID: 1121997022}
+--- !u!1001 &2137851046
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3677
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .230000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.70710665
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106948
+      objectReference: {fileID: 0}
+    - target: {fileID: 496412, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_RootOrder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 191694, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+      propertyPath: m_Name
+      value: AircraftJet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
   m_IsPrefabParent: 0

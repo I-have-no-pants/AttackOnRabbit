@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &117523856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +288,7 @@ MonoBehaviour:
   maxSpawnZ: 2000
   minSpwanZ: 0
   spawnCount: 10
+  airplane: {fileID: 1994293133}
 --- !u!4 &149846134
 Transform:
   m_ObjectHideFlags: 0
@@ -1128,9 +1129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c93334f5b80ca4f8e48748475bc127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: 0
-  Combo: 0
-  ComboTime: 0
 --- !u!4 &1571954069
 Transform:
   m_ObjectHideFlags: 0
@@ -1451,6 +1449,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d02d91027ad499e40a3e2c5dfbad67c7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1994293133 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 191694, guid: 45f3f07c80d50dd49ae701233970cc76, type: 2}
+  m_PrefabInternal: {fileID: 891571617}
 --- !u!1001 &2104698719
 Prefab:
   m_ObjectHideFlags: 0
