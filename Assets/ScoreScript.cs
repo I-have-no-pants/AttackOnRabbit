@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScoreScript : MonoBehaviour {
 
-	public GameObject gui;
+	public StaticGuiAnimations sga;
 	private int score = 0;
 	public int killStreak = 0;
 	public float killStreakTime = 10;
@@ -17,7 +17,6 @@ public class ScoreScript : MonoBehaviour {
 			score = value;
 			killStreak += 1;
 			killStreakTimer = killStreakTime;
-			StaticGuiAnimations sga = gui.GetComponent<StaticGuiAnimations>();
 			if (killStreak == 2)
 				sga.ShowMessage("Double Kill");
 			else if (killStreak == 3)

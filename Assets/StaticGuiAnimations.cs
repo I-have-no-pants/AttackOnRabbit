@@ -7,6 +7,7 @@ public class StaticGuiAnimations : MonoBehaviour {
 	public Text Score;
 	public Text Killstreak;
 	public Text Message;
+	public ScoreScript sc;
 
 	// Use this for initialization
 	void Start () {
@@ -15,8 +16,8 @@ public class StaticGuiAnimations : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Score.text = "Score\n" + 0;
-		Killstreak.text = "Killstreak\n" + 0;
+		Score.text = "Score\n" + sc.Score;
+		Killstreak.text = "Killstreak\n" + sc.killStreak;
 	}
 
 	public void EndGame() {
