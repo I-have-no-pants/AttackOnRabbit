@@ -214,7 +214,7 @@ GameObject:
   - 23: {fileID: 185419492}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: PartyZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
   minSpwanX: -200
   maxSpawnZ: 200
   minSpwanZ: -200
-  spawnCount: 1
+  spawnCount: 5
 --- !u!4 &192909212
 Transform:
   m_ObjectHideFlags: 0
@@ -579,6 +579,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d02d91027ad499e40a3e2c5dfbad67c7, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &993171525
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 21.3999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 405870, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 172426, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8574c2eaa9cc6aa4597504795b008edb, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1074945188
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +823,7 @@ GameObject:
   - 23: {fileID: 1418646110}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: PartyZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
