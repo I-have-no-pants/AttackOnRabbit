@@ -17,6 +17,7 @@ public class BunnyDeathScript : MonoBehaviour {
 		Destroy (gameObject, DeathTime);
 		Instantiate (ExplosionPref, transform.position, transform.rotation);
 		FindObjectOfType<RabbitSpawner>().RabbitsCount--;
+		FindObjectOfType<ScoreScript>().Score++;
 	}
 	
 	// Update is called once per frame
