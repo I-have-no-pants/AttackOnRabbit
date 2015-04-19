@@ -11,7 +11,9 @@ public class PlayerCollideScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		var pos = gameObject.transform.position;
+		if (pos.x > 10000 || pos.x < -10000 || pos.z > 10000 || pos.z < -10000)
+			FindObjectOfType<HUDAnimator>().FadeOut();
 	}
 
 	void OnCollisionEnter(Collision collision) {

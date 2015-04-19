@@ -1489,6 +1489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
+  timer: 0
 --- !u!4 &2008479877
 Transform:
   m_ObjectHideFlags: 0

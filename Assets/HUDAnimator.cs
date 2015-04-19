@@ -18,6 +18,13 @@ public class HUDAnimator : MonoBehaviour {
 		GetComponent<AudioSource> ().Play ();
 
 	}
+
+	public void FadeOut() {
+		if (Dead)
+			return;
+		Dead = true;
+		GetComponent<Animator> ().SetTrigger ("FadeOut");
+	}
 	
 	public void Death() {
 		FindObjectOfType<GameManagerScript>().RestartGame();
