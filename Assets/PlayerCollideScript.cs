@@ -3,10 +3,14 @@ using System.Collections;
 
 public class PlayerCollideScript : MonoBehaviour {
 
+	public AudioSource source;
+	public AudioSource dangerzone;
+	private bool playOnce = false;
+	private StaticGuiAnimations sga;
 
 	// Use this for initialization
 	void Start () {
-	
+		sga = FindObjectOfType<StaticGuiAnimations>();
 	}
 	
 	// Update is called once per frame
@@ -26,5 +30,20 @@ public class PlayerCollideScript : MonoBehaviour {
 			FindObjectOfType<HUDAnimator>().Crash();
 			Debug.Log("CRASHING THIS PLANE WITH NO SURVIVORS");
 		}
+	}
+
+	void OnTriggerEnter(Collider collider) {
+		if (collider.tag == "DangerZone") {
+			var rot = gameObject.transform.rotation.eulerAngles;
+			Debug.Log(Mathf.Rad2Deg*rot.x+" "+rot.z);
+			if ((rot.x < 270 && rot.x > 90) || (rot.z < 270 && rot.z > 90)) {
+				if (!playOnce) {
+					playOnce = true;
+					source.Stop();
+					dangerzone.Play();
+					sga.ShowMessage("DANGER ZONE!");
+				}
+			}
+		} 
 	}
 }
