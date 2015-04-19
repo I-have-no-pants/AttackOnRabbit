@@ -1,0 +1,310 @@
+# Blender MTL File: 'konko_unrigged.blend'
+# Material Count: 28
+
+newmtl m_00
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_body.png
+map_d tex_body.png
+
+newmtl m_01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_kao.png
+map_d tex_kao.png
+
+newmtl m_02
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_kao.png
+map_d tex_kao.png
+
+newmtl m_03
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_kao.png
+map_d tex_kao.png
+
+newmtl m_04
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_kao.png
+map_d tex_kao.png
+
+newmtl m_05
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_eyesb.png
+map_d tex_eyesb.png
+
+newmtl m_06
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_eyes2.png
+map_d tex_eyes2.png
+
+newmtl m_07
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.115000 0.115000 0.115000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_mimi.png
+map_d tex_mimi.png
+
+newmtl m_08
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.115000 0.115000 0.115000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_mimi.png
+map_d tex_mimi.png
+
+newmtl m_09
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_kami4.png
+map_d tex_kami4.png
+
+newmtl m_10
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_kami3.png
+map_d tex_kami3.png
+
+newmtl m_11
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_kami2.png
+map_d tex_kami2.png
+
+newmtl m_12
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_fuku2.png
+map_d tex_fuku2.png
+
+newmtl m_13
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.115000 0.115000 0.115000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_kami1.png
+map_d tex_kami1.png
+
+newmtl m_14
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_fuku2.png
+map_d tex_fuku2.png
+
+newmtl m_15
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_fuku1.png
+map_d tex_fuku1.png
+
+newmtl m_16
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_fuku1.png
+map_d tex_fuku1.png
+
+newmtl m_17
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_fuku1.png
+map_d tex_fuku1.png
+
+newmtl m_18
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_skirt.png
+map_d tex_skirt.png
+
+newmtl m_19
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_fuku1.png
+map_d tex_fuku1.png
+
+newmtl m_20
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.315686 0.315686 0.315686
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_senaka.png
+map_d tex_senaka.png
+
+newmtl m_21
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_senaka.png
+map_d tex_senaka.png
+
+newmtl m_22
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd tex_body.png
+map_d tex_body.png
+
+newmtl m_23
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd tex_fuku2.png
+map_d tex_fuku2.png
+
+newmtl m_24
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd 5.png
+map_d 5.png
+
+newmtl m_25
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.800000
+illum 2
+map_Kd .
+map_d .
+
+newmtl m_26
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.980000
+illum 2
+map_Kd tex_aka.png
+map_d tex_aka.png
+
+newmtl m_27
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex_badge.png
+map_d tex_badge.png
