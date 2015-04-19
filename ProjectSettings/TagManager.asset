@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PartyZone
   - Tower
+  - DangerZone
   layers:
   - Default
   - TransparentFX
