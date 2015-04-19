@@ -27,5 +27,6 @@ public class StaticGuiAnimations : MonoBehaviour {
 	public void ShowMessage(string m) {
 		Message.text = m;
 		GetComponent<Animator> ().SetTrigger ("Message");
+		GetComponent<AudioSource> ().Play ();
 	}
 }

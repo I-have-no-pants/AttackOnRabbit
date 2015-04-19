@@ -8551,7 +8551,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121997022}
   m_LocalRotation: {x: 0, y: -.70710665, z: 0, w: .707106948}
-  m_LocalPosition: {x: 3677, y: .230000004, z: -3}
+  m_LocalPosition: {x: 3677, y: .519999981, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 541196268}
@@ -10270,6 +10270,7 @@ GameObject:
   - 4: {fileID: 1156586748}
   - 95: {fileID: 1156586750}
   - 114: {fileID: 1156586749}
+  - 82: {fileID: 1156586751}
   m_Layer: 0
   m_Name: StaticHUD
   m_TagString: Untagged
@@ -10323,6 +10324,75 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!82 &1156586751
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156586747}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 25d4ee660cf48ee40901941bfd333246, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &1185092569
 Prefab:
   m_ObjectHideFlags: 0
@@ -10610,7 +10680,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: .100000001
+      value: .200000003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10634,7 +10704,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa88c62ffd8640e4987c9fe896154eac, type: 3}
       propertyPath: m_LocalScale.x
@@ -15239,7 +15309,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 72ff8a9715c5a5549bec3c5e0af2bdb1, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 72ff8a9715c5a5549bec3c5e0af2bdb1, type: 3}
       propertyPath: m_UseLightProbes
@@ -20491,7 +20561,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: .300000012
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 60
   orthographic: 0
   orthographic size: 5
