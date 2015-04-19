@@ -5,6 +5,9 @@ public class ScoreScript : MonoBehaviour {
 
 	private StaticGuiAnimations sga;
 	private int score = 0;
+	public static int highScore = 0;
+	public static int previousHighScore = 0;
+	private bool showHighScore = true;
 	public int killStreak = 0;
 	public float killStreakTime = 10;
 	private float killStreakTimer;
@@ -15,6 +18,15 @@ public class ScoreScript : MonoBehaviour {
 		}
 		set {
 			score = value;
+			if (score > highScore) {
+				highScore = score;
+				if (showHighScore) {
+					sga.ShowMessage("New Highscore");
+					showHighScore = false;
+				}
+			}
+			if (score > previousHighScore)
+				previousHighScore = score;
 			killStreak += 1;
 			killStreakTimer = killStreakTime;
 			if (killStreak == 2)
@@ -48,6 +60,7 @@ public class ScoreScript : MonoBehaviour {
 	void Start () {
 		killStreakTimer = killStreakTime;
 		sga = FindObjectOfType<StaticGuiAnimations>();
+		previousHighScore = 0;
 	}
 	
 	// Update is called once per frame
