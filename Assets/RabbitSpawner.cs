@@ -29,7 +29,7 @@ public class RabbitSpawner : MonoBehaviour {
 		Ray r = new Ray(new Vector3(x,1000,z),new Vector3(0,-1,0));
 		RaycastHit hit;
 		if (Physics.Raycast(r, out hit)) {
-			Debug.Log(hit.collider.name);
+			//Debug.Log(hit.collider.name);
 			if (hit.collider.tag == "PartyZone") {
 				Vector3 location = new Vector3(x,hit.point.y,z);
 				if ((airplane.transform.position-location).magnitude > 50) {
