@@ -31,6 +31,7 @@ Sounds:
 Yuri Santana - http://soundbible.com/1945-Smashing.html
 Kibblesbob - http://soundbible.com/1804-M4A1-Single.html
 Mark DiAngelo - http://soundbible.com/1807-Explosion-Ultra-Bass.html
+Marianne Gagnon - http://soundbible.com/1682-Robot-Blip.html
 
 Music:
 effoharkay - https://soundcloud.com/effoharkay
