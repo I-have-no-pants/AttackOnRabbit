@@ -53,6 +53,7 @@ public class PlayerGun : MonoBehaviour {
 			turret.Fire();
 			timer = reload;
 			animator.SetTrigger("Shoot");
+			GetComponent<AudioSource>().Play();
 		}
 		
 		

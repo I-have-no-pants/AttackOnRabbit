@@ -21,7 +21,7 @@ public class PlayerCollideScript : MonoBehaviour {
 			bds.OnDeath();
 			Debug.Log("Collision with bunny");
 		} else { // Collision with bad stuff
-			FindObjectOfType<GameManagerScript>().RestartGame();
+			FindObjectOfType<HUDAnimator>().Crash();
 			Debug.Log("CRASHING THIS PLANE WITH NO SURVIVORS");
 		}
 	}
