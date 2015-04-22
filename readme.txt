@@ -22,10 +22,12 @@ Known bugs:
 Runs in fixed resolution
 Won't start on monitors with less than 800 resolution
 
-By:
-Adam Green
+Art:
 Henrik Henrikson
-Jesper Tingvall tingvall.pw
+
+Programming:
+Adam Green
+Jesper Tingvall - tingvall.pw
 
 Sounds:
 Yuri Santana - http://soundbible.com/1945-Smashing.html
@@ -35,3 +37,14 @@ Marianne Gagnon - http://soundbible.com/1682-Robot-Blip.html
 
 Music:
 effoharkay - https://soundcloud.com/effoharkay
+
+Font:
+jooki.de
+
+Foxgirl model:
+http://foxkonko.com/
+Special thanks to http://yukizini.tumblr.com/
+
+Bunny model:
+wHiteRabbiT sTudio 
+http://www.whiterabbit-studio.com/

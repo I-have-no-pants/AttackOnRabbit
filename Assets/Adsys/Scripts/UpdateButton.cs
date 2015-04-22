@@ -14,7 +14,6 @@ using System.Collections;
 public class UpdateButton : MonoBehaviour, CheckForUpdate.GameListCallback{
 
 	public CheckForUpdate updateManager;
-	public Button myUpdateButton;
 	public Text myUpdateButtonText;
 
 	private CheckForUpdate.Game game;
@@ -24,17 +23,18 @@ public class UpdateButton : MonoBehaviour, CheckForUpdate.GameListCallback{
 		updateManager.RegisterUpdateChecker(this);
 	}
 
-	public void ClickUpdate() {
-		Application.OpenURL(game.url);
+	void Update() {
+		if (Input.GetButtonDown("Update") && myUpdateButtonText.gameObject.activeInHierarchy)
+		    Application.OpenURL(game.url);
 	}
-	
+		    	
 	public void ListLoaded() {
 		Debug.Log("Loading AdsLoaded . . .");
 		game = CheckForUpdate.matchedGame;
 		if (game != null) {
 			if (game.version > updateManager.myVersionVersion) {
 				myUpdateButtonText.text = game.text;
-				myUpdateButton.gameObject.SetActive(true);
+				myUpdateButtonText.gameObject.SetActive(true);
 			}
 		}
 	}
