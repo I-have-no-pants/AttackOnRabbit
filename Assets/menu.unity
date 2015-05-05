@@ -798,7 +798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   url: http://tingvall.pw/ad/games.xml
   myGameName: AttackOnRabbit
-  myVersionVersion: 1
+  myVersionVersion: 2
 --- !u!224 &614877459
 RectTransform:
   m_ObjectHideFlags: 0
